@@ -94,7 +94,7 @@ namespace Hotel3.Model
         /// <summary>
         ///Получение списка клиентов 
         /// </summary>
-        /// <returns></returns>
+        /// <returns>возвращает табличку с найденными клиентами</returns>
         public DataTable SelectClients()
             {
             DataTable client;
@@ -106,9 +106,9 @@ namespace Hotel3.Model
 
 
         /// <summary>
-        ///Получение списка клиентов 
+        ///Получение списка клиентов по заданому параметру find
         /// </summary>
-        /// <returns></returns>
+        /// <returns>возвращает табличку с найденными клиентами</returns>
         public DataTable SelectClients(string find)
         {
             DataTable client;

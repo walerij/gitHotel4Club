@@ -8,3 +8,13 @@ C:\Users\Валера\Documents\Visual Studio 2015\Projects\Hotel3\TestHotel\bin
 C:\Users\Валера\Documents\Visual Studio 2015\Projects\Hotel3\TestHotel\obj\Debug\TestHotel.csprojResolveAssemblyReference.cache
 C:\Users\Валера\Documents\Visual Studio 2015\Projects\Hotel3\TestHotel\obj\Debug\TestHotel.dll
 C:\Users\Валера\Documents\Visual Studio 2015\Projects\Hotel3\TestHotel\obj\Debug\TestHotel.pdb
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\bin\Debug\TestHotel.dll
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\bin\Debug\TestHotel.pdb
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\bin\Debug\Hotel3.exe
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\bin\Debug\MySql.Data.dll
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\bin\Debug\Hotel3.pdb
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\obj\Debug\TestHotel.csprojResolveAssemblyReference.cache
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\obj\Debug\TestHotel.dll
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\TestHotel\obj\Debug\TestHotel.pdb
