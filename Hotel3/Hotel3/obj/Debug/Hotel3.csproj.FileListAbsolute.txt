@@ -9,3 +9,14 @@ C:\Users\Валера\documents\visual studio 2015\Projects\Hotel3\Hotel3\bin\De
 C:\Users\Валера\documents\visual studio 2015\Projects\Hotel3\Hotel3\bin\Debug\MySql.Data.Entity.dll
 C:\Users\Валера\documents\visual studio 2015\Projects\Hotel3\Hotel3\obj\Debug\Hotel3.exe
 C:\Users\Валера\documents\visual studio 2015\Projects\Hotel3\Hotel3\obj\Debug\Hotel3.pdb
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\bin\Debug\Hotel3.exe.config
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\obj\Debug\Hotel3.exe
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\obj\Debug\Hotel3.pdb
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\bin\Debug\Hotel3.exe
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\bin\Debug\Hotel3.pdb
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\bin\Debug\MySql.Data.dll
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\obj\Debug\Hotel3.csprojResolveAssemblyReference.cache
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\obj\Debug\Hotel3.Form1.resources
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\obj\Debug\Hotel3.Properties.Resources.resources
+C:\Users\Валера\Documents\c#\gitHotel4Club\Hotel3\Hotel3\obj\Debug\Hotel3.csproj.GenerateResource.Cache

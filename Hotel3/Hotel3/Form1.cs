@@ -13,12 +13,16 @@ namespace Hotel3
     public partial class Form1 : Form
     {
         MySQL sql;
+        Model.Client mClient;
         
+
+
         public Form1()
         {
             InitializeComponent();
             //инициализируем переменную - подключаемся к базе
             sql = new MySQL("localhost", "root", "", "hotel2");
+            mClient = new Model.Client(sql);
         }
         /// <summary>
         /// событие по клику этой архиважной кнопки
@@ -38,11 +42,7 @@ namespace Hotel3
         /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
-            DataTable client;
-            do client = sql.Select("SELECT id AS NR, client AS FIO, email AS email, phone  FROM Client");
-            while (sql.SqlError());
-            //MessageBox.Show(client.Rows[1]["client"].ToString());
-            dataGridView.DataSource = client;
+            dataGridView.DataSource = mClient.SelectClients();
         }
 
         /// <summary>
@@ -52,10 +52,14 @@ namespace Hotel3
         /// <param name="e"></param>
         private void button3_Click(object sender, EventArgs e)
         {
-            do sql.Insert(@"INSERT INTO client (client, email, phone, address, info) 
-                       VALUES('Tatiana', 'tttt@gmail.com', '223-322', 'Saratov', 'Newa')");
-            while (sql.SqlError());
-            //MessageBox.Show("Добавлено");
+
+             mClient = new Model.Client(sql);
+            mClient.SetClient("Катя");
+            mClient.SetAddress("Н.Ч.");
+            mClient.SetInfo("Shie like Egypt");
+            mClient.InsertClient();
+            MessageBox.Show("Добавлена запись № "+mClient.id);
+
         }
         /// <summary>
         /// что делается по обработке таймера
@@ -66,6 +70,23 @@ namespace Hotel3
         {
             do label1.Text = sql.Scalar("SELECT COUNT(*) FROM Client");
             while (sql.SqlError());
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            dataGridView.DataSource = mClient.SelectClients(textBox1.Text);
+        }
+
+        private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            long id = long.Parse(dataGridView[0, e.RowIndex].Value.ToString());
+            Random rand = new Random();
+            mClient.SelectClients(id);
+            string telephone = rand.Next(000000001, 999999999).ToString();
+            MessageBox.Show("Введен телефон:"+telephone);
+            mClient.SetPhone(telephone);
+            mClient.UPDATEClients(id);
+            dataGridView.DataSource = mClient.SelectClients();
         }
     }
 }

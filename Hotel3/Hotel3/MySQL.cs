@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data;
 using MySql.Data.MySqlClient;
 using System.Data;
 using System.Windows.Forms;
 
 namespace Hotel3
 {
-   public class MySQL
+    public class MySQL
     {
         /*параметры соединения (эх, как web.config не хватает)*/
         string host;//имя или ip хоста
